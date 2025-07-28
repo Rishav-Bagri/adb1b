@@ -1,0 +1,52 @@
+# --- Python artifacts -------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions / compiled objects
+*.so
+
+# --- Packaging / build directories -----------------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# --- Virtual-envs -----------------------------------------------------
+venv/
+env/
+.venv/
+ENV/
+
+# --- Testing / coverage ----------------------------------------------
+.pytest_cache/
+.coverage*
+coverage.xml
+htmlcov/
+.hypothesis/
+
+# --- Logs & misc ------------------------------------------------------
+*.log
+*.out
+*.tmp
+*.swp
+*.bak
+*.orig
+
+# --- Jupyter & notebooks ---------------------------------------------
+.ipynb_checkpoints/
+
+# --- Documentation build output --------------------------------------
+docs/_build/
+
+# --- OS & editor noise -----------------------------------------------
+.DS_Store
+Thumbs.db
+
+# --- VCS --------------------------------------------------------------
+.git
+.git/
+.gitignore
+
+
